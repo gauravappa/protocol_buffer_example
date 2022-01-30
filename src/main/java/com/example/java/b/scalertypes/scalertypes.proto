@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+
+message ScalerTypes{
+
+//for defining int in java 	Uses variable-length encoding. 
+//Inefficient for encoding negative numbers – if your field is 
+//likely to have negative values, use sint32 instead.
+//it takes zero as default value
+int32 field_name_1 = 1;
+
+
+//for defining long in java. Uses variable-length encoding. 
+//Inefficient for encoding negative numbers – if your field is 
+//likely to have negative values, use sint64 instead.
+//it takes zero as default value
+int64 field_name_2 = 2;
+
+//double to define double data type in java
+//it takes zero as default value
+double field_name_3 = 3;
+
+//float is used to define float data type in java
+//it takes zero as default value
+float field_name_4 = 4;
+
+//string is used to define String in java. A string must always contain UTF-8 encoded 
+or 7-bit ASCII text, and cannot be longer than 2^32.
+//it takes empty string as default value
+string field_name_5 = 5;
+
+//bool is used to define boolean data in java.if no value specified it takes false as default value
+bool field_name_6 = 6;
+
+}
