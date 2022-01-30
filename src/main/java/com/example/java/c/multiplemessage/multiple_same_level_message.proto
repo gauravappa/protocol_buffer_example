@@ -1,0 +1,18 @@
+syntax ="proto3";
+
+/* we can define multiple message in same proto file 
+ * compiler will generated seperate classes for this messages. */
+message Cart{
+
+repeated Item items=1;
+
+}
+
+
+message Item {
+
+int32 id=1;
+string productName=2;
+int32 productQty=3;
+
+}
