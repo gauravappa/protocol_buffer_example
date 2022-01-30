@@ -9,5 +9,12 @@
 <li>Code is automatically generated.</li>
 <li>Data is Compressed Automatically.</li>
 
-protocol buffer maven configuration link : https://github.com/os72/protoc-jar-maven-plugin
 
+Setup :
+
+we will need protobuf-java maven dependancy for proto generated classes<br>
+and<br>
+to generate code automatically add maven protoc dependendancy as mentioned in the following path<br>
+protocol buffer maven configuration link : https://github.com/os72/protoc-jar-maven-plugin
+<br>if you are compiling proto files by outside compiler then you only need protobuf-java dependancy
+and other configuration can be skipped.
