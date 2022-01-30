@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+message Food{
+
+int32 food_id=1;
+string food_name=2;
+
+
+/* we define Nutrition nested to Message Food
+ * we define nested when we want to localize some message within another 
+ */
+message Nutrition{
+
+float carb=1;
+float protein=2;
+float fat=3;
+float calories=4;
+
+}
+
+Nutrition nutrition=3;
+
+}
