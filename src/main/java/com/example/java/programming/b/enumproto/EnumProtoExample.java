@@ -4,7 +4,7 @@ import com.example.java.programming.b.enumproto.generated.EnumProto.StudentData;
 import com.example.java.programming.b.enumproto.generated.EnumProto.StudentData.Section;
 
 /* proto file is defined in the
- * resouces com.example.enumproto package
+ * resources com.example.enumproto package
  * we defined StudentData message in proto file
  * with two field id and Section Enum
  */
