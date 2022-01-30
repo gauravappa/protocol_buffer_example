@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package="com.example.java.programming.b.enumproto.generated";
+
+message StudentData{
+
+int32 id=1;
+Section section_of_student = 2;
+
+
+enum Section {
+UNDEFINED_SECTION = 0;
+A_SECTION = 1;
+B_SECTION = 2;
+C_SECTION = 3;
+D_SECTION = 4;
+
+}
+
+}
