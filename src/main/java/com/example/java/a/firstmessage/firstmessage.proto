@@ -23,3 +23,8 @@ int32 student_id=1;
 
 
 }
+
+//Smallest tag number we can use is 1 and Largest is 2^29 -1 
+//You cannot use tags from 19000 to 19999 it is used by google for their internal purpose
+// 1 to 15 tag use 1 byte space while encoding. use it for frequently populated fields
+// 2 to 2047 tags uses 2 bytes space while encoding. use it for less frequently populated fields 
