@@ -1,0 +1,25 @@
+//proto file is the way to define protocol buffer that protoc compiler understand and protoc compiler
+// uses proto files to automatically generate
+//code for us. it is language and platform neutral
+
+
+//here we specified we want to use protocol buffer 3 version syntax goes as below
+//if you want to use protocol buffer 2 they use proto2 
+
+syntax="proto3";
+
+
+//message is similar to java pojo class but with little bit different syntax
+//this message gets automatically converted to java(or any language) model with lots of boiler plate code
+
+message Student{
+
+
+//int32 is the data type, student_id is the field name and 1 is the tag
+//we specify tag for each field . it is used for encoding purpose while serialization
+
+int32 student_id=1;
+
+
+
+}
