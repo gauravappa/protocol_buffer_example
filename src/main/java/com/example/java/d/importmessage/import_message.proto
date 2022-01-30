@@ -1,0 +1,12 @@
+syntax ="proto3";
+
+//we specify fully qualified name for proto file 
+// if in same package we can directly define proto file name.
+import "item.proto";
+
+message Cart{
+
+repeated Item items=1;
+
+}
+
