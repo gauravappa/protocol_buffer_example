@@ -3,9 +3,9 @@ syntax ="proto3";
 
 message RepeatedTypes{
 
-//repeated types are used to define list or array in java
-//if we do not write field as repeated then it is singular
-//default value of repeated fields are empty array or list
+/* repeated types are used to define list or array in java
+ * if we do not write field as repeated then it is singular
+ * default value of repeated fields are empty array or list */
 
 repeated string items=1;
 
