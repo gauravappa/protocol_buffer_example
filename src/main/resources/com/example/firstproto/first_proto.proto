@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.example.java.programming.a.firstproto.generated";
+
+
+message Student {
+
+string id=1;
+string name=2;
+
+
+}
