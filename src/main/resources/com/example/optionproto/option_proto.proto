@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+/* java_package option is used for defining java package in which you want to generate this proto 
+ * messaged
+ */
+option java_package="com.example.java.programming.c.options.generated";
+
+
+/* java multiple files is used to define we want to create seperate files for different classes
+*/
+option java_multiple_files=true;
+
+
+message Person{
+
+Date birthdate=1;
+
+
+}
+
+message Date{
+
+string date=1;
+
+}
