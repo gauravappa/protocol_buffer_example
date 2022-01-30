@@ -1,0 +1,33 @@
+syntax ="proto3";
+
+
+message EnumType{
+
+/ * if you know all the value a field can take then you can use enum.
+  * for example month we know that it can take value from january to december
+  * Default value of enum is the first element of enum which is 0 th element
+  */
+  
+  enum Month{
+  
+  UNKNOWN_MONTH = 0;
+  JANUARY=1;
+  FEBRUARY=2;
+  MARCH=3;
+  APRIL=4;
+  MAY=5;
+  JUNE=6;
+  JULY=7;
+  AUGUST=8;
+  SEPTEMBER=9;
+  OCTOMBER=10;
+  NOVEMBER=11'
+  DECEMBER=12;
+  
+  }
+  
+  Month month_of_year=1;
+
+
+}
+
