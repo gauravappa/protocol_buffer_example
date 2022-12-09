@@ -4,7 +4,7 @@
 
 
 /* here we specified we want to use protocol buffer 3 version syntax goes as below
- * if you want to use protocol buffer 2 they use proto2 */ 
+ * if you want to use protocol buffer 2 then use proto2 */ 
 
 syntax="proto3";
 
