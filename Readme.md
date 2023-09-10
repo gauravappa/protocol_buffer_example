@@ -8,7 +8,7 @@
 <li>Smaller Faster and Simpler.</li>
 <li>Code is automatically generated.</li>
 <li>Data is Compressed Automatically.</li>
-
+<li>We can directly define comments in proto file for documentation</li>
 
 Setup :
 
